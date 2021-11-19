@@ -1,0 +1,516 @@
+
+/* logo*/
+
+.desktop-header--stick {
+    padding: 1.0625rem 0 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    background-color: #fff;
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    top: 33px;
+}
+
+.desktop-header--stick .desktop-header {
+    margin: 0 auto 1.25rem 0;
+}
+
+.desktop-header {
+    padding: 0 24px 0 20px;
+}
+
+.desktop-header {
+    margin: 1.0625rem auto;
+    max-height: 2.75rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 19px;
+    flex-flow: row nowrap;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+}
+
+.desktop-header .logo-wrapper  {
+    display: flex;
+    align-items: center;
+    flex: 0 0 14%;
+    margin-left: 0.3125rem;
+}
+
+.large-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+
+.desktop-header .logo-wrapper .logo-link {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+    color: #2199e8;
+    text-decoration: none;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.desktop-header .logo-wrapper .logo-img {
+    max-height: 1.4375rem;
+}
+
+a img {
+    border: 0;
+}
+
+.a img, img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    border: 0;
+}
+
+/* busca */
+.input-search{
+    width:100%;
+    height:35px;
+    border:solid 1px #bcbcbc;
+    border-radius:31px;
+    background-color:#f8f8f8;
+    padding:.300rem 0 .30rem .900rem; 
+    border:solid 2px #bcbcbc;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-left: 2.25rem;
+    padding-right: 0.6875rem; 
+    
+}
+
+.btn-search{
+    border:none;
+    height:20px;
+    background-color:white; 
+}
+
+.btn-search::after{
+    content:"";
+    background-image:url(../Imagens/lupa.png);
+    background-size:20px;
+    background-repeat:no-repeat;
+    margin-left:-40px;
+    margin-top:-3px;
+    height:40px;
+    width:60%;
+    display:block;
+    position:absolute;
+}
+
+/* lojas e serviços*/
+.header-row {
+    display: flex;
+    align-items: center;
+}
+
+.header-row .header-store-box {
+    width: 7.5rem;
+    margin-left: 0.75rem;
+}
+
+.header-locator-box {
+    display: flex;
+    align-items: center;
+    font-size: .875rem;
+    line-height: .8125rem;
+    color: #202020;
+}
+
+.header-locator-box span {
+    display: inline-block;
+    max-width: 100px;
+}
+
+.header-locator-box span a {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    color: #202020;
+}
+
+.links a {
+    text-decoration: none;
+    color: black; 
+   
+}
+
+/*nav*/
+.navigation .global-nav {
+    position: relative;
+    border-bottom: none;
+    -ms-flex-flow: row wrap;
+    display: flex;
+    max-width: 80rem;
+    width: 100%;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.75rem;
+}
+
+.global-nav {
+    background-color: #f8f8f8;
+}
+
+.menu {
+    margin-right:40px;
+    margin-left: 40px;
+}
+
+.menu li {
+    display: table-cell;
+}
+
+.global-nav .nav-top-category .top-category-link {
+    padding: 0 1.4000rem;
+    white-space: normal;
+    text-transform: uppercase;
+    font-size: .875rem;
+    line-height: 1em;
+    padding-top: 0.1875rem;
+    height: 2rem;
+    font-family: 'Overpass',Helvetica, sans-serif;
+    color:black;
+    letter-spacing: .01995rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.global-nav .nav-top-category:last-child  {
+    background-color: #202020;
+}
+
+.navigation .global-nav .nav-top-category .top-category-link {
+   height: auto;
+   ;
+}
+
+.global-nav .nav-top-category:last-child .top-category-link {
+    color: #fff;
+
+}
+/*carosel*/
+.carousel {
+    position:unset;
+    margin-top:-3vh;
+    margin-left:40px;
+    margin-right:42px;
+    align-items: center;
+}
+
+/*botão*/
+.nav-outstanding {
+    display: block;
+    margin: 1.5rem 0;
+}
+
+.nav-outstanding__link {
+    display: block;
+    margin-right: 0.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.nav-outstanding__link [class*=btn] {
+    font-size: .8125rem;
+    line-height: .875rem;
+    padding: 0.75rem 3.125rem 0.75rem 1rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 16%);
+    border-color: #dbdbdb;
+    min-width: 10rem;
+    position: relative;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.btn-outline-dark, .confirmation-order__payment--details .boleto-payment--print {
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 1.75rem;
+    text-transform: uppercase;
+    letter-spacing: 4.1px;
+    font-family: 'Overpass',Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: #fff;
+    color: #202020;
+}
+
+
+.nav-outstanding__list {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 1.6875rem 0 1.5rem;
+}
+
+/*produto*/
+.titulo {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    text-align: left;
+    font-family: "poppins",sans-serif;
+    color: #202020;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left:30px ;
+
+}
+
+.titulo-categoria {
+    color: grey;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.container-produtos{
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.lista-produtos {
+    list-style: none;
+    padding: 0;
+    width: 305px;
+    height: 423px;
+    margin-left: 30px; 
+    margin-right: 30px;
+}
+
+.item-produto {
+    
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    margin: 5px 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid transparent
+}
+
+.item-produto:hover {
+    box-shadow: 0 1px 7px 0 grey;
+    transition: color .7s;
+}
+
+.nome-produto {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    height: 18px;
+    margin: 0 0 7px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 18px;
+}
+
+.opcoes{
+    font-size: 14px;
+    line-height: 20px;
+    color: #BCBCBC;
+    text-transform: lowercase;
+}
+
+.preco {
+    display: block;
+    margin-top: 4px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    line-height: 24px;
+}
+
+.parcelado {
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.ranking, .number {
+    line-height: 30px;
+    font-family: 'Overpass',Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+    position: relative;
+    right: -60px;
+}
+
+.preco-desconto{
+    font-style: inherit;
+    text-decoration: line-through;
+}
+
+.services {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+/*footer*/
+.content-asset {
+    display: block;
+    width: 100%;
+}
+
+.footer__services .dropdown .dropdown-content {
+    cursor: auto;
+    max-height: initial;
+}
+
+.footer__services li{
+    font-family: 'Overpass',Helvetica, sans-serif;
+    line-height: 1.5rem;
+    position: relative;
+    padding: 0;
+    margin: 0 0 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    list-style: none;
+    display: block;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-family: 'Overpass',Helvetica, sans-serif;
+    font-weight: 700;
+    color: #202020;
+    line-height: 1.5rem;
+    position: relative;
+    margin-left:40px;
+    font-size:25px;
+}
+
+p{
+    font-family: 'Overpass',Helvetica, sans-serif;
+    color: #202020;
+    line-height: 1.5rem;
+    position: relative;
+    margin-left:40px;
+    font-size: 17px;
+
+}
+
+h3 {
+    font-family: 'Overpass',Helvetica, sans-serif;
+    font-weight: 700;
+    color: #202020;
+    line-height: 1.5rem;
+    position: relative;
+    margin-left:40px;
+    font-size: 1rem;
+}
+
+.link-footer{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    
+}
+h6{
+    font-family: 'Overpass',Helvetica, sans-serif;
+    font-weight: 700;
+    color: #202020;
+    line-height: 1.5rem;
+    position: relative;
+    margin-left:40px;
+    font-size: 1r;
+}
+
+.footer__services{
+    display: flex;
+    padding-left:-2px;
+}
+
+
+.footer-payment{
+    display: flex;
+}
+
+.footer-payment__images--right {
+    margin-left:5rem;
+    width:40%;
+    text-align:right;
+    margin-bottom:0;
+}
+   
+
+.footer__about{
+    display: flex;
+    margin-right:2;
+    width:100%;
+}
+
+
+.footer__about-images{
+    width:30%;
+    margin-left:20rem;
+    margin-top: 3rem;
+}
+
+.footer__images{
+    width:100%;
+    margin-top: 3rem;
+}
+
+.footer__terms {
+    font-family: 'overpass',Helvetica,sans-serif;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    margin: 0 -1.25rem;
+    padding: 0.5rem 1.25rem 1rem;
+    border-top: 0.0625rem solid #bcbcbc;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+em{
+    color:#8e8e8e;
+}
+
+.read-more{
+    color:black;
+    text-decoration:underline;
+    font-size:14px;
+}
+
+
+
